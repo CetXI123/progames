@@ -39,19 +39,40 @@
     background-color: red;
 }
 
-#divinind3 {
-    border-style: groove;
-    border-color: black;
-    border-width: 5px;
-    width: fit-content;
-}
 
-#butinind3 {
+#butinind31 {
     font-size: 2em;
     background-color: yellow;
 }
 
-#butinind3:hover {
+#butinind32 {
+    font-size: 2em;
+    background-color: yellow;
+}
+
+#butinind33 {
+    font-size: 2em;
+    background-color: yellow;
+}
+
+#butinind34 {
+    font-size: 2em;
+    background-color: yellow;
+}
+
+#butinind31:hover {
+    background-color: red;
+}
+
+#butinind32:hover {
+    background-color: red;
+}
+
+#butinind33:hover {
+    background-color: red;
+}
+
+#butinind34:hover {
     background-color: red;
 }
 
@@ -83,12 +104,39 @@
     text-align: center;
 }
 
-#butinind5 {
+#butinind51 {
     font-size: 2em;
     background-color: yellow;
 }
 
-#butinind5:hover {
+#butinind52 {
+    font-size: 2em;
+    background-color: yellow;
+}
+
+#butinind53 {
+    font-size: 2em;
+    background-color: yellow;
+}
+
+#butinind54 {
+    font-size: 2em;
+    background-color: yellow;
+}
+
+#butinind51:hover {
+    background-color: red;
+}
+
+#butinind52:hover {
+    background-color: red;
+}
+
+#butinind53:hover {
+    background-color: red;
+}
+
+#butinind54:hover {
     background-color: red;
 }
 
