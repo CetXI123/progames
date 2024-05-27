@@ -1,0 +1,31 @@
+body {
+    background-color: white;
+    animation-name: colou;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    text-align: center;
+    font-size: 2em;
+}
+
+@keyframes colour{
+    10% {background-color: red;}
+    20% {background-color: orange;}
+    30% {background-color: yellow;}
+    40% {background-color: green;}
+    50% {background-color: blue;}
+    60% {background-color: blueviolet;}
+    70% {background-color: purple;}
+    80% {background-color: gold;}
+    90% {background-color: white;}
+}
+
+button {
+    font-size: 2em;
+    border-color: black;
+    border-width: 5px;
+}
+
+button:hover{
+    background-color: aliceblue;
+}

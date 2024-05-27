@@ -1,0 +1,226 @@
+#di1 {
+    width: 100%;
+    margin:auto;
+    border-style: groove;
+    align-self: center;
+    font-size: 2em;
+    background-color: greenyellow;
+}
+
+#headerinind {
+    text-align: center;
+}
+
+#divinind {
+    text-align: center;
+}
+
+#but1 {
+    text-align: center;
+    font-size: 1em;
+    background-color: rgba(255, 0, 0, 0.723);
+}
+
+#but1:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+#di2 {
+    border-style: groove;
+    border-color: black;
+    width: fit-content;
+}
+
+#but2 {
+    background-color: yellow;
+}
+
+#but2:hover {
+    background-color: red;
+}
+
+#divinind3 {
+    border-style: groove;
+    border-color: black;
+    border-width: 5px;
+    width: fit-content;
+}
+
+#butinind3 {
+    font-size: 2em;
+    background-color: yellow;
+}
+
+#butinind3:hover {
+    background-color: red;
+}
+
+#box1 {
+    width: 10em;
+    height: 10em;
+    font-size: 1em;
+    background-color: grey;
+    text-align: center;
+    animation-name: slideright;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#box1:hover {
+    background-color: white;
+}
+
+@keyframes slideright {
+    to{transform: translateX(1500%);}
+}
+
+#header1 {
+    text-align: center;
+}
+
+#divinind5 {
+    text-align: center;
+}
+
+#butinind5 {
+    font-size: 2em;
+    background-color: yellow;
+}
+
+#butinind5:hover {
+    background-color: red;
+}
+
+#box2 {
+    background-color:red;
+    text-align: center;
+    height: 5em;
+    width: 100%;
+    font-size: 3em;
+    animation-name: uptodown;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+@keyframes uptodown {
+    to {transform: translateY(200%);}
+}
+
+@keyframes downtoup {
+    from {transform: translateY(200%);}
+}
+
+@keyframes slideleft {
+    from {transform: translateX(5000%);}
+}
+
+@keyframes rotatez {
+    100% {transform: rotateZ(360deg);}
+}
+
+@keyframes rotatez2 {
+    0.1% {transform: rotateZ(360deg);}
+}
+
+@keyframes colorchange {
+    10% {background-color: red;}
+    20% {background-color: orange;}
+    30% {background-color: yellow;}
+    40% {background-color: green;}
+    50% {background-color: blue;}
+    60% {background-color: blueviolet;}
+    70% {background-color: purple;}
+    80% {background-color: gold;}
+    90% {background-color: white;}
+}
+
+#box3 {
+    background-color:greenyellow;
+    text-align: center;
+    height: 5em;
+    width: 100%;
+    font-size: 3em;
+    animation-name: downtoup;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#box4 {
+    background-color:blue;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+    font-size: 7em;
+    animation-name: slideright;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#box5 {
+    background-color:orange;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+    font-size: 5em;
+    animation-name: slideleft;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#box6 {
+    background-color:black;
+    text-align: center;
+    height: 10em;
+    width: fit-content;
+    font-size: 2em;
+    animation-name: rotatez;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#box7 {
+    background-color:black;
+    text-align: center;
+    height: 5em;
+    width: fit-content;
+    font-size: 6em;
+    animation-name: colorchange;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#btn2inind7 {
+    background-color: white;
+    color: white;
+    border-style: none;
+}
+
+#btn3inind7 {
+    background-color: white;
+    color: white;
+    border-style: none;
+}
+
+#btninind9 {
+    background-color: white;
+    color: white;
+    border-style: none;
+    position: center;
+    height: 52em;
+    width: 1000em;
+}
+
+#bod8 {
+    background-image: url(OIP\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
