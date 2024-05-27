@@ -1,2 +1,2 @@
 # progameshub
-<h1><a href="ind.html">START</a></h1>
+<h1><a href="ind2.html">START</a></h1>
