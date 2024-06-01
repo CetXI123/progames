@@ -40,6 +40,6 @@ button9.onclick = function(){
         }
     }
     if(tries==6){
-        location.replace("1nd.html");
+        location.replace("ind9.1.html");
     }
 }
