@@ -29,14 +29,14 @@ btn1.onclick = function(){
     ans6 = ipt4o.value;
     ans1 = Number(ans1);
     ans2 = Number(ans2);
-    ans3 = Number(ans3);
+    ans3 = String(ans3);
     ans4 = Number(ans4);
     ans5 = Number(ans5);
     ans6 = Number(ans6);
 
     if(ans1 == 1654 &&
         ans2 == 1024 &&
-        ans3 == 3011 &&
+        ans3 == "24x+636"&&
         ans4 == 518.5 &&
         ans5 == 5 &&
         ans6 == 3){
