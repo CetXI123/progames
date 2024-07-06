@@ -48,7 +48,7 @@ btn1.onclick = function(){
         }
         else if(ans1 == 1654 &&
             ans2 == 1024 &&
-            ans3 == 3011 &&
+            ans3 == "24x+636" &&
             ans4 == 518.5 &&
             ans5 == 3 &&
             ans6 == 5){
